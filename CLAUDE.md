@@ -2,7 +2,7 @@
 
 ## Zweck
 
-Gemeinsamer SSH-Client (Rust, russh) für Amiscara Connect und Amiscara Agents. Entscheidung und Grenze des Crates: `docs/konzept.md` in `staude/amiscara-connect`, Abschnitt „Gemeinsames SSH-Crate“. Das Repo ist öffentlich.
+Gemeinsamer SSH-Client (Rust, russh) für Amiscara Connect und Amiscara Agents. Entscheidung und Grenze des Crates: `docs/konzept.md` in `toolwerk/amiscara-connect`, Abschnitt „Gemeinsames SSH-Crate“. Das Repo ist öffentlich.
 
 Persönliche, nicht eingecheckte Ergänzungen gehören in `CLAUDE.local.md` (steht in `.gitignore`).
 
