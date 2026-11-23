@@ -4,6 +4,11 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach [Keep a Changelog]
 
 ## [Unreleased]
 
+### Changed
+
+- Das Repo liegt in der Organisation toolwerk: Links, Beispiel für die Git-Abhängigkeit (Tag v0.8.0), `repository` in `Cargo.toml` und die Vergleichslinks zeigen auf `toolwerk/amiscara-ssh`. Die alte Adresse leitet weiter.
+- README auch auf Englisch (`README.en.md`).
+
 ## [0.8.0] - 2026-11-20
 
 ### Changed
@@ -121,14 +126,14 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach [Keep a Changelog]
 - Schlüssel erzeugen, lesen und Fingerprint (`keys`), aus `herdr-transport` von Amiscara Agents übernommen.
 - Lokaler SSH-Testserver (`scripts/ssh-testserver.sh`) und Container-Tests, in der CI als eigener Job.
 
-[Unreleased]: https://github.com/staude/amiscara-ssh/compare/v0.7.3...HEAD
-[0.7.3]: https://github.com/staude/amiscara-ssh/compare/v0.7.2...v0.7.3
-[0.7.2]: https://github.com/staude/amiscara-ssh/compare/v0.7.1...v0.7.2
-[0.7.1]: https://github.com/staude/amiscara-ssh/compare/v0.7.0...v0.7.1
-[0.7.0]: https://github.com/staude/amiscara-ssh/compare/v0.6.0...v0.7.0
-[0.6.0]: https://github.com/staude/amiscara-ssh/compare/v0.5.0...v0.6.0
-[0.5.0]: https://github.com/staude/amiscara-ssh/compare/v0.4.0...v0.5.0
-[0.4.0]: https://github.com/staude/amiscara-ssh/compare/v0.3.0...v0.4.0
-[0.3.0]: https://github.com/staude/amiscara-ssh/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/staude/amiscara-ssh/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/staude/amiscara-ssh/releases/tag/v0.1.0
+[Unreleased]: https://github.com/toolwerk/amiscara-ssh/compare/v0.7.3...HEAD
+[0.7.3]: https://github.com/toolwerk/amiscara-ssh/compare/v0.7.2...v0.7.3
+[0.7.2]: https://github.com/toolwerk/amiscara-ssh/compare/v0.7.1...v0.7.2
+[0.7.1]: https://github.com/toolwerk/amiscara-ssh/compare/v0.7.0...v0.7.1
+[0.7.0]: https://github.com/toolwerk/amiscara-ssh/compare/v0.6.0...v0.7.0
+[0.6.0]: https://github.com/toolwerk/amiscara-ssh/compare/v0.5.0...v0.6.0
+[0.5.0]: https://github.com/toolwerk/amiscara-ssh/compare/v0.4.0...v0.5.0
+[0.4.0]: https://github.com/toolwerk/amiscara-ssh/compare/v0.3.0...v0.4.0
+[0.3.0]: https://github.com/toolwerk/amiscara-ssh/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/toolwerk/amiscara-ssh/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/toolwerk/amiscara-ssh/releases/tag/v0.1.0

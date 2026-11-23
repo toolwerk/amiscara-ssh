@@ -1,6 +1,8 @@
 # amiscara-ssh
 
-Gemeinsamer SSH-Client der Amiscara-Apps ([Amiscara Connect](https://github.com/staude/amiscara-connect) und [Amiscara Agents](https://github.com/staude/amiscara-agents)), gebaut auf [russh](https://github.com/Eugeny/russh).
+**Deutsch** · [English](README.en.md)
+
+Gemeinsamer SSH-Client der Amiscara-Apps ([Amiscara Connect](https://github.com/toolwerk/amiscara-connect) und [Amiscara Agents](https://github.com/staude/amiscara-agents)), gebaut auf [russh](https://github.com/Eugeny/russh).
 
 Ins Crate gehört alles, was nur SSH ist: Verbindungsaufbau und Anmeldung, Host-Key-Prüfung mit TOFU, Schlüssel, Kanäle für Shell mit PTY, `direct-tcpip` und `direct-streamlocal`, Jump-Host-Ketten mit Sitzungs-Pool und Agent-Forwarding, Einmalcodes per keyboard-interactive, SFTP über `Session::open_sftp`. Was zu einer App gehört, bleibt in der App.
 
@@ -9,15 +11,17 @@ Ins Crate gehört alles, was nur SSH ist: Verbindungsaufbau und Anmeldung, Host-
 Die Apps binden das Crate als Git-Abhängigkeit mit festem Tag ein:
 
 ```toml
-amiscara-ssh = { git = "https://github.com/staude/amiscara-ssh", tag = "v0.5.0" }
+amiscara-ssh = { git = "https://github.com/toolwerk/amiscara-ssh", tag = "v0.8.0" }
 ```
 
 Wer Crate und App zugleich ändert, setzt in der App lokal eine nicht eingecheckte `.cargo/config.toml`:
 
 ```toml
-[patch."https://github.com/staude/amiscara-ssh"]
+[patch."https://github.com/toolwerk/amiscara-ssh"]
 amiscara-ssh = { path = "../amiscara-ssh" }
 ```
+
+Der Schlüssel in `[patch]` muss genau der URL entsprechen, die die App in ihrer Abhängigkeit nutzt.
 
 ## Entwickeln
 
